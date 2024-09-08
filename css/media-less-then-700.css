@@ -65,4 +65,20 @@
         width: 100%;
         text-align: center;
     }
+
+    .mail-box{
+        padding: 7px 15px 7px 15px;
+    }
+
+    .mail-box a{
+        font-size: 13px;
+    }
+
+    .bottem-links{
+        flex-direction: column;
+    }
+
+    .bottem-links li a{
+        font-size: 20px;
+    }
 }
