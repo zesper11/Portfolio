@@ -50,7 +50,8 @@ body {
 }
 
 .main-btn{
-    padding: 10px 30px 10px 30px;
+    padding: 10px 15px 10px 15px;
+    margin: 7px;
     border: 1px solid var(--light-border);
     transition-duration: 0.3;
     text-decoration: none;
@@ -145,7 +146,7 @@ body {
 /* About Me Section Styles */
 .sec-head {
     text-align: center;
-    margin-top: 25vh;
+    margin-top: 19vh;
     margin-bottom: 40px;
 }
 
@@ -187,7 +188,6 @@ b{
 .projects-row{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 20px;
     flex-wrap: wrap;
 }
 
@@ -262,6 +262,7 @@ b{
 }
 
 /* Footer */
+
 .footer {
     text-align: center;
     margin-top: 30px;
