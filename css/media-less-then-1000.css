@@ -1,0 +1,32 @@
+/* Media Query for screens less than 1000px */
+@media (max-width: 1000px) {
+    .nav h1 {
+        font-size: 25px;
+    }
+
+    .nav li a {
+        font-size: 20px;
+    }
+
+    .projects-row{
+        flex-direction: column;
+    }
+
+    .projects-col{
+        width: 100%;
+        height: 90%;
+        margin-top: 35px;
+    }
+    
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero-items {
+        padding: 0px;
+    }
+
+    .hero img {
+        width: 7vw;
+    }
+}

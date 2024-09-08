@@ -1,0 +1,68 @@
+/* Media Query for screens less than 700px */
+@media (max-width: 700px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .body {
+        width: 95%;
+    }
+
+    .hero-items {
+        padding: 0px;
+    }
+
+    .hero-items h3 {
+        font-size: 15px;
+    }
+
+    .hero-items h2 {
+        font-size: 23px;
+    }
+
+    .hero-items h1 {
+        font-size: 23px;
+    }
+
+    .hero-items i {
+        font-size: 30px;
+        margin: 5px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav h1 {
+        text-align: center;
+        margin: auto;
+    }
+
+    .hero img {
+        width: 70%;
+    }
+
+    .hero {
+        padding-top: 30px;
+    }
+
+    .abt-contant{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .abt-box{
+        margin: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .abt-text{
+        font-size: 13px;
+    }
+
+    .abt-image{
+        width: 100%;
+        text-align: center;
+    }
+}
